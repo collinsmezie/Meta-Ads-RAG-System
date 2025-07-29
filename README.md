@@ -204,8 +204,9 @@ const result = await this.openai.chat.completions.create({
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd digress
+   git clone git@github.com:collinsmezie/Meta-Ads-RAG-System.git
+   cd Meta-Ads-RAG-System
+
    ```
 
 2. **Install dependencies**
