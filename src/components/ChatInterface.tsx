@@ -137,7 +137,7 @@ export default function ChatInterface() {
               {/* Chart */}
               {result.chartData && (
                 <div className="mt-6">
-                  <h3 className="font-semibold text-gray-900 mb-4">Performance Chart</h3>
+                  <h3 className="font-semibold text-gray-900 mb-4">Performance Chart - Innovative Feature</h3>
                   <PerformanceChart chartData={result.chartData} />
                 </div>
               )}
@@ -180,6 +180,7 @@ export default function ChatInterface() {
               {/* Suggestions */}
               {result.suggestions && result.suggestions.length > 0 && (
                 <div className="mt-6">
+                  <p className='font-semibold text-gray-900 mb-4'>Innovative Feature - Smart Suggestions</p>
                   <h3 className="font-semibold text-gray-900 mb-4">Try asking:</h3>
                   <div className="flex flex-wrap gap-2">
                     {result.suggestions.map((suggestion, index) => (
